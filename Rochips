@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Rochips", "Ocean")
+
+local Tab = Window:NewTab("rochips")
+
+local Section = Tab:NewSection("rochips")
+
+Section:NewButton("rochips potato", "ButtonInfo", function()
+--//rochips panel//--
+g,ld,gl,Panel,Rochips_ = game,loadstring,"https://glot.io/snippets","a6c7y0","gvjv"
+ld(g:HttpGet((''..gl..'/'..Rochips_..''..Panel.. '/raw/main.lua'),true))()
+    print("Clicked")
+end)
+
+Section:NewLabel("also made by me")
